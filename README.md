@@ -16,10 +16,14 @@
 -----
 
 ## 힘들었던 점 
+
 logout에는 성공했지만 mongodb에서 token이 사라지지 않아 해결하기 까지 몇 시간을 계속 붙잡고 있었다 . . . 
 실제 localhost에서는 브라우저에서 자동으로 x_auth를 받아오지 못하므로  req.cookies.x_auth로 직접 넣어줘야 함
+
 ----
+
 local host코드
+
 ---
 app.get("/logout", auth, (req, res) => { <br>
   //req.user를 미들웨어에서 가져올 수 있다. <br>
