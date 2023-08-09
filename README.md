@@ -24,10 +24,6 @@
 20. 회원가입 페이지 구현 + redux
 21. 로그아웃 구현
 
-
-antd 
-- 설치 : npm install antd
-- 경로설정 : import 'antd/dist/antd.css'
 -----
 
 ## 힘들었던 점 
